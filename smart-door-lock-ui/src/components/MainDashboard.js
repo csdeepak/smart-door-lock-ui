@@ -29,7 +29,7 @@ const MainDashboard = () => {
 
   return (
     <div className="container mx-auto p-6">
-      <div className="grid grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
         <StatusCard title="Fingerprint Status" status={fingerprintStatus} />
         <StatusCard title="RFID Status" status={rfidStatus} />
         <StatusCard title="Camera Status" status={cameraStatus} />
